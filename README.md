@@ -531,9 +531,35 @@ Available cleanups/refactorings:
         Replace (X && !Y) || (!X && Y) by X ^ Y.
 ```
 
+## Eclipce Jdt
+
+Apply eclipse Jdt Cleanups automatically.
+
+Work in progress.
+
+## Remarks
+
 Note that the cleanups have different levels of usefulness and maturity.
 
 Manual review is higly recommended.
 
 Note also that some refactorings need a final formatting step which should be provided by the target project.
+
+# FAQ
+
+## Does erefactor claim any rights on the output of applying AutoRefactor or EclipseJdt cleanups?
+
+No.
+
+Erefactor provides a service when applying AutoRefactor or EclipseJdt cleanups in the hope that it will be useful.
+This is not intended to change the license of the code the cleanups are applied to in any way
+or claim any rights on the changes itself.
+
+Erefactor can't be made responsible for any bug introduced by using the changes either.
+
+## But I can execute AutoRefactor or Eclipse Jdt cleanups myself?
+
+Sure.
+
+Do you?
 
